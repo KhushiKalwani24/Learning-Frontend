@@ -1,0 +1,30 @@
+p{
+    
+   color:#964B00;
+    text-align:center;
+    line-height:30px;
+}
+h1{
+    color:red;
+    text-decoration:underline;
+    text-align:center;
+}
+h3{
+    color:black;
+    text-align:center;
+}
+h4{
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    color:rgb(0, 128, 0);
+
+}
+button {
+    background-color:white;
+    color:blueviolet;
+}
+textarea{
+    color:rgb(0,0,0);
+}

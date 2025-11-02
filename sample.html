@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>this is heading 2</h2>
+    <table border="black">
+        <caption>Food Menu</caption>
+        <thead>
+        <tr>
+            <th rowspan="2">Items</th>
+            <th colspan="2">Price</th>
+        </tr>
+        <tr>
+            <td>INR</td>
+            <TD>USD</TD>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Frooti</td>
+            <td>10</td>
+            <td>0.14</td>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>12</td>
+            <td>0.18</td>
+        </tr>
+        <tr>
+            <td>Chips</td>
+            <td>20</td>
+            <td>0.28</td>
+        </tr>
+        </tbody>
+    </table>
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <thead>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2">Average</td>
+                <td rowspan="2">Red eyes</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="/server">
+        <label for="username">
+        Enter Username:
+        <input type="text" id="username" placeholder="Enter Name">
+       </label> 
+       <br>
+       <label>
+        Enter password:
+        <input type="password" placeholder="Enter password">
+      </label>
+      <br>
+        <label>
+        Enter Age:
+       <input type="number" placeholder="Enter Age">
+      </label> 
+      <br>
+      <button>Submit</button>
+    </form>
+    <hr> 
+    <form action="https://www.google.co.in/search?">
+        <input type="text" placeholder="Search in google" name="q">
+        <button>Search</button>
+    </form>
+    <hr>
+    <form action="/server">
+        <h3>Registration Form</h3>
+        <br>
+        <input type="text" placeholder="First Name" name="Name">
+        <input type="text" placeholder="Last Name" name="Name">
+        <br>
+        <label for="gender">
+            Please select gender
+        </label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br>
+        <label>Do you agree to all the terms of service</label>
+        <input type="checkbox" id="con" name="condition" value="Yes">
+        <label for="con">Yes,I agree</label>
+        <br>
+        <button>Register</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
